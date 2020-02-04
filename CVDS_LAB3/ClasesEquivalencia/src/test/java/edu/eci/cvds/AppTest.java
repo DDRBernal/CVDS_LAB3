@@ -1,8 +1,8 @@
 package edu.eci.cvds;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.Assert;
 
 /**
  * Unit test for simple App.
@@ -15,6 +15,6 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( 2==2 );
+        Assert.assertTrue( 2==2 );
     }
 }

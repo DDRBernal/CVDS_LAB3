@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.016" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.002" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\david.otalora-b\Documents\cvds_lab3\ClasesEquivalencia\target\test-classes;C:\Users\david.otalora-b\Documents\cvds_lab3\ClasesEquivalencia\target\classes;C:\Users\david.otalora-b\.m2\repository\cz\pumpitup\pn5\reporting\junit\0.1.0\junit-0.1.0.jar;C:\Users\david.otalora-b\.m2\repository\cz\pumpitup\pn5\reporting\api\0.1.0\api-0.1.0.jar;C:\Users\david.otalora-b\.m2\repository\cz\pumpitup\pn5\config\0.1.0\config-0.1.0.jar;C:\Users\david.otalora-b\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\david.otalora-b\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\david.otalora-b\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\david.otalora-b\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\david.otalora-b\Documents\CVDS_LAB3\CVDS_LAB3\ClasesEquivalencia\target\test-classes;C:\Users\david.otalora-b\Documents\CVDS_LAB3\CVDS_LAB3\ClasesEquivalencia\target\classes;C:\Users\david.otalora-b\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\david.otalora-b\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\DAVID~1.OTA\AppData\Local\Temp\surefire3704060925970283332\surefirebooter6016608886974865580.jar C:\Users\david.otalora-b\AppData\Local\Temp\surefire3704060925970283332 2020-01-30T08-58-33_246-jvmRun1 surefire8793072483311160835tmp surefire_04133784761445792545tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\david.otalora-b\Documents\cvds_lab3\ClasesEquivalencia\target\test-classes;C:\Users\david.otalora-b\Documents\cvds_lab3\ClasesEquivalencia\target\classes;C:\Users\david.otalora-b\.m2\repository\cz\pumpitup\pn5\reporting\junit\0.1.0\junit-0.1.0.jar;C:\Users\david.otalora-b\.m2\repository\cz\pumpitup\pn5\reporting\api\0.1.0\api-0.1.0.jar;C:\Users\david.otalora-b\.m2\repository\cz\pumpitup\pn5\config\0.1.0\config-0.1.0.jar;C:\Users\david.otalora-b\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\david.otalora-b\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\david.otalora-b\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\david.otalora-b\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;"/>
+    <property name="sun.java.command" value="C:\Users\DAVID~1.OTA\AppData\Local\Temp\surefire6115177954289761865\surefirebooter1432357649790388278.jar C:\Users\david.otalora-b\AppData\Local\Temp\surefire6115177954289761865 2020-02-04T12-28-11_716-jvmRun1 surefire8597457099015321235tmp surefire_03010908928049390110tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\david.otalora-b\Documents\CVDS_LAB3\CVDS_LAB3\ClasesEquivalencia\target\test-classes;C:\Users\david.otalora-b\Documents\CVDS_LAB3\CVDS_LAB3\ClasesEquivalencia\target\classes;C:\Users\david.otalora-b\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\david.otalora-b\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\david.otalora-b"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="basedir" value="C:\Users\david.otalora-b\Documents\cvds_lab3\ClasesEquivalencia"/>
+    <property name="basedir" value="C:\Users\david.otalora-b\Documents\CVDS_LAB3\CVDS_LAB3\ClasesEquivalencia"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\DAVID~1.OTA\AppData\Local\Temp\surefire3704060925970283332\surefirebooter6016608886974865580.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DAVID~1.OTA\AppData\Local\Temp\surefire6115177954289761865\surefirebooter1432357649790388278.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\DAVID~1.OTA\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_201"/>
-    <property name="user.dir" value="C:\Users\david.otalora-b\Documents\cvds_lab3\ClasesEquivalencia"/>
+    <property name="user.dir" value="C:\Users\david.otalora-b\Documents\CVDS_LAB3\CVDS_LAB3\ClasesEquivalencia"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,4 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
+  <testcase name="notValidAge" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateOfRepetition" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="underAge" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="notValidateAlive" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
 </testsuite>
