@@ -1,6 +1,8 @@
-edu\eci\cvds\tdd\registry\Gender.class
+edu\eci\cvds\tdd\aerodescuentos\ExcepcionParametrosInvalidos.class
 edu\eci\cvds\tdd\registry\Base_de_Datos.class
 edu\eci\cvds\tdd\registry\Person.class
+edu\eci\cvds\tdd\aerodescuentos\CalculadoraDescuentos.class
+edu\eci\cvds\tdd\registry\Gender.class
 edu\eci\cvds\App.class
 edu\eci\cvds\tdd\registry\RegisterResult.class
 edu\eci\cvds\tdd\registry\Registry.class
